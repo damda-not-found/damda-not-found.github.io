@@ -31,12 +31,12 @@ mainPage.new_paragraph("Ważne dla każdego programisty, który właśnie wchodz
 
 mainPage.new_header(level=1, title='lista')
 for i in range(5):
+    mainPage.new_header(level=2, title=resultTable[7 * i])
     with DDGS() as ddgs:
-        results = ddgs.text(resultTable[7 * i] + " programming", max_results=5)
+        results = ddgs.text(resultTable[7 * i] + " programming wikipedia", max_results=5)
         print(next(results))
         mainPage.new_line(mainPage.new_inline_link(link=next(results)['href'], text='link do strony o ' + resultTable[7 * i]))
 
-    mainPage.new_header(level=2, title=resultTable[7 * i])
 mainPage.create_md_file()
 
 #listPage = MdUtils(file_name=listaNazwa, title='Skrócona lista najbardziej popularnych języków programowania')
