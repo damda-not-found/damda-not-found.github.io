@@ -23,5 +23,7 @@ Ważne dla każdego programisty, który właśnie wchodzi na rynek pracy, jest w
 ## C#
   
 [link do strony o C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-___
+
+---
+
 źródło: [Strona tiobe](https://www.tiobe.com/tiobe-index/)
