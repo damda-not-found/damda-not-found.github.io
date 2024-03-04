@@ -22,7 +22,7 @@ textLink = 'lista'
 
 mainPage = MdUtils(file_name='index', title='Popularne języki programowania')
 
-mainPage.new_header(level=1, title='Języki programowania')
+#mainPage.new_header(level=1, title='Języki programowania')
 
 mainPage.new_paragraph("Ważne dla każdego programisty, który właśnie wchodzi na rynek pracy, jest wybranie odpowiedniego języka programowania. "
                      "Dlatego prezentuję skróconą listę najbardziej popularnych języków programowania.")
@@ -36,7 +36,7 @@ for i in range(5):
         results = ddgs.text(resultTable[7 * i] + " programming wikipedia", max_results=5)
         mainPage.new_line(mainPage.new_inline_link(link=next(results)['href'], text='link do strony o ' + resultTable[7 * i]))
 
-mainPage.write('---')
+mainPage.new_line('\n --- \n')
 mainPage.new_line('źródło: ' + mainPage.new_inline_link(link='https://www.tiobe.com/tiobe-index/', text='Strona tiobe' ))
 mainPage.create_md_file()
 
