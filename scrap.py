@@ -28,13 +28,14 @@ for i in range(4, len(table.find_all("td"))):
 listaNazwa = 'list'
 textLink = 'lista'
 
-indexPage = MdUtils(file_name='index', title='Popularne języki programowania')
+indexPage = MdUtils(file_name='index.md', title='Popularne języki programowania')
 
 indexPage.new_paragraph("Ważne dla każdego programisty, który właśnie wchodzi na rynek pracy, jest wybranie odpowiedniego języka programowania. "
                      "Dlatego prezentuję skróconą listę najbardziej popularnych języków programowania.")
 
 indexPage.new_line(indexPage.new_inline_link(link='main.md', text='lista'))
 
+indexPage.create_md_file()
 mainPage = MdUtils(file_name='main', title='Popularne języki programowania')
 
 
