@@ -4,6 +4,16 @@ from mdutils.mdutils import MdUtils
 from mdutils import Html
 from duckduckgo_search import DDGS
 
+
+def progLangGet(name, url):
+    page = requests.get(url)
+    site = BeautifulSoup(page.text, 'html.parser')
+    text = site.find("b").parent
+    return text.text
+
+
+
+
 URL = "https://www.tiobe.com/tiobe-index/"
 page = requests.get(URL)
 
@@ -41,7 +51,13 @@ for i in range(5):
     with DDGS() as ddgs:
         results = ddgs.text(resultTable[7 * i] + " programming wikipedia", max_results=5)
         mainPage.new_paragraph(opisy[i]);
-        mainPage.new_line(mainPage.new_inline_link(link=next(results)['href'], text='link do strony wikipedii o ' + resultTable[7 * i]))
+        wikiSite = next(results)['href']
+        mainPage.new_line(mainPage.new_inline_link(link=resultTable[7 * i] + '.md', text='link do strony o ' + resultTable[7 * i]))
+        currentPage = MdUtils(file_name=resultTable[7 * i] + '.md', title=resultTable[7 * i])
+        currentPage.new_paragraph(progLangGet(resultTable[7 * i], wikiSite))
+        currentPage.new_line('\n --- \n')
+        currentPage.new_line('źródło: ' + mainPage.new_inline_link(link=wikiSite, text='Strona tiobe' ))
+        currentPage.create_md_file()
 
 mainPage.new_line('\n --- \n')
 mainPage.new_line('źródło: ' + mainPage.new_inline_link(link='https://www.tiobe.com/tiobe-index/', text='Strona tiobe' ))
