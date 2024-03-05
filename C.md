@@ -3,14 +3,9 @@ C
 =
 
 
-W Wikipedii nie ma jeszcze artykułu o takiej nazwie. Możesz:
-
-utworzyć go,
-zaproponować, żeby inni go napisali,
-poszukać tekstu „C (programming language)” w artykułach,
-poszukać strony o tym tytule na jednym z siostrzanych projektów Wikipedii:
- Commons  Wikiźródła  Wikisłownik  Wikicytaty  Wikibooks  Wikinews  
+C (pronounced /ˈsiː/ – like the letter c) C is commonly used on computer architectures that range from the largest supercomputers to the smallest microcontrollers and embedded systems.
+  
 
  --- 
   
-źródło: [Wikipedia](https://pl.wikipedia.org/wiki/C_(programming_language))
+źródło: [Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))

@@ -28,11 +28,15 @@ for i in range(4, len(table.find_all("td"))):
 listaNazwa = 'list'
 textLink = 'lista'
 
+indexPage = MdUtils(file_name='index', title='Popularne języki programowania')
 
-mainPage = MdUtils(file_name='index', title='Popularne języki programowania')
-
-mainPage.new_paragraph("Ważne dla każdego programisty, który właśnie wchodzi na rynek pracy, jest wybranie odpowiedniego języka programowania. "
+indexPage.new_paragraph("Ważne dla każdego programisty, który właśnie wchodzi na rynek pracy, jest wybranie odpowiedniego języka programowania. "
                      "Dlatego prezentuję skróconą listę najbardziej popularnych języków programowania.")
+
+indexPage.new_line(indexPage.new_inline_link(link='main.md', text='lista'))
+
+mainPage = MdUtils(file_name='main', title='Popularne języki programowania')
+
 
 opisy = [
 "Z wyraźną przewagą, Python plasuje się na pierwszym miejscu najpopularniejszych języków programowania. "
@@ -49,8 +53,8 @@ for i in range(4):
     mainPage.new_header(level=2, title=resultTable[7 * i])
     with DDGS() as ddgs:
         results = ddgs.text(resultTable[7 * i] + " programming wikipedia", max_results=5)
+        wikiSite = next(results)['href']
         mainPage.new_paragraph(opisy[i]);
-        wikiSite = re.sub("en", "pl", next(results)['href'])
         mainPage.new_line(mainPage.new_inline_link(link=resultTable[7 * i] + '.md', text='link do strony o ' + resultTable[7 * i]))
         currentPage = MdUtils(file_name=resultTable[7 * i]+ '.md', title=resultTable[7 * i])
         currentPage.new_paragraph(progLangGet(resultTable[7 * i], wikiSite))
@@ -62,12 +66,4 @@ mainPage.new_line('\n --- \n')
 mainPage.new_line('źródło: ' + mainPage.new_inline_link(link='https://www.tiobe.com/tiobe-index/', text='Strona tiobe' ))
 mainPage.create_md_file()
 
-#listPage = MdUtils(file_name=listaNazwa, title='Skrócona lista najbardziej popularnych języków programowania')
-
-#listPage.new_header(level=1, title='lista')
-
-#for i in range(5):
-#    listPage.new_header(level=2, title=resultTable[7 * i])
-
-#listPage.create_md_file()
 

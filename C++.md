@@ -3,9 +3,9 @@ C++
 ===
 
 
-C++ – język programowania ogólnego przeznaczenia. Język został zaprojektowany przez Bjarne Stroustrupa jako rozszerzenie  języka C o obiektowe mechanizmy abstrakcji danych i silną statyczną kontrolę typów. Zachowanie zgodności z językiem C na poziomie kodu źródłowego pozostaje jednym z podstawowych celów projektowych kolejnych standardów języka.
+C++ (/ˈsiː plʌs plʌs/, pronounced "C plus plus" and sometimes abbreviated as CPP) is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. First released in 1985 as an extension of the C programming language, it has since expanded significantly over time; as of 1997
   
 
  --- 
   
-źródło: [Wikipedia](https://pl.wikipedia.org/wiki/C++)
+źródło: [Wikipedia](https://en.wikipedia.org/wiki/C++)

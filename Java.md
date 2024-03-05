@@ -3,14 +3,9 @@ Java
 ====
 
 
-W Wikipedii nie ma jeszcze artykułu o takiej nazwie. Możesz:
-
-utworzyć go,
-zaproponować, żeby inni go napisali,
-poszukać tekstu „Java (programming language)” w artykułach,
-poszukać strony o tym tytule na jednym z siostrzanych projektów Wikipedii:
- Commons  Wikiźródła  Wikisłownik  Wikicytaty  Wikibooks  Wikinews  
+Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. 
+  
 
  --- 
   
-źródło: [Wikipedia](https://pl.wikipedia.org/wiki/Java_(programming_language))
+źródło: [Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
