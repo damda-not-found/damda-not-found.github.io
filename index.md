@@ -25,12 +25,7 @@ C++ znajduje się tuż za swoim przodkiem, C, na liście najbardziej popularnych
 
 
 Java rzeczywiście jest językiem programowania. Należy do prywatnej firmy Oracle i jest tam dalej rozwijana.  
-[link do strony o Java](Java.md)
-## C#
-
-
-Tak jak Java, C# jest językiem czysto obiektowym i znajduje się w rękach prywatnej korporacji, Microsoftu. Dlatego użytkownicy Linuxa zazwyczaj nie programują w C#.  
-[link do strony o C#](C#.md)  
+[link do strony o Java](Java.md)  
 
  --- 
   

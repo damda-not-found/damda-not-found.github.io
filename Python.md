@@ -3,9 +3,14 @@ Python
 ======
 
 
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.[31]
-  
+W Wikipedii nie ma jeszcze artykułu o takiej nazwie. Możesz:
+
+utworzyć go,
+zaproponować, żeby inni go napisali,
+poszukać tekstu „Python (programming language)” w artykułach,
+poszukać strony o tym tytule na jednym z siostrzanych projektów Wikipedii:
+ Commons  Wikiźródła  Wikisłownik  Wikicytaty  Wikibooks  Wikinews  
 
  --- 
   
-źródło: [Strona tiobe](https://en.wikipedia.org/wiki/Python_(programming_language))
+źródło: [Wikipedia](https://pl.wikipedia.org/wiki/Python_(programming_language))

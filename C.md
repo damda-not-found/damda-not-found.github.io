@@ -3,9 +3,14 @@ C
 =
 
 
-C (pronounced /ˈsiː/ – like the letter c)[6] is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential. By design, C's features cleanly reflect the capabilities of the targeted CPUs. It has found lasting use in operating systems, device drivers, and protocol stacks, but its use in application software has been decreasing.[7] C is commonly used on computer architectures that range from the largest supercomputers to the smallest microcontrollers and embedded systems.
-  
+W Wikipedii nie ma jeszcze artykułu o takiej nazwie. Możesz:
+
+utworzyć go,
+zaproponować, żeby inni go napisali,
+poszukać tekstu „C (programming language)” w artykułach,
+poszukać strony o tym tytule na jednym z siostrzanych projektów Wikipedii:
+ Commons  Wikiźródła  Wikisłownik  Wikicytaty  Wikibooks  Wikinews  
 
  --- 
   
-źródło: [Strona tiobe](https://en.wikipedia.org/wiki/C_(programming_language))
+źródło: [Wikipedia](https://pl.wikipedia.org/wiki/C_(programming_language))
